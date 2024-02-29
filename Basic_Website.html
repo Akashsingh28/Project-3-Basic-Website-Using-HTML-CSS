@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(245, 245, 198);
+        }
+
+        nav {
+            position: sticky;
+            top: 0px;
+        }
+
+        ul {
+            background-color: grey;
+            display: flex;
+            list-style: none;
+        }
+
+        ul li {
+            padding: 23px;
+        }
+
+        li:hover {
+            background-color: lightgray;
+            color: red;
+            cursor: pointer;
+        }
+
+        .conatiner {
+            background-color: rgb(204, 232, 241);
+            display: flex;
+            justify-content: space-around;
+            padding: 12px;
+            height: 406px;
+        }
+
+        .red {
+            background-color: rgb(240, 172, 172);
+            height: 300px;
+            width: 300px;
+            border-radius: 14px;
+            box-shadow: 5px 10px 5px rgb(78, 75, 75);
+        }
+
+        .green {
+            background-color: rgb(186, 248, 186);
+            height: 300px;
+            width: 300px;
+            border-radius: 14px;
+            box-shadow: 5px 10px 5px rgb(78, 75, 75);
+        }
+
+        .conatiner img {
+            justify-content: center;
+            width: 290px;
+            padding: 5px;
+            border-radius: 15px;
+        }
+
+        .red h2 {
+            padding: 3px;
+            margin: 5px;
+            color: red;
+        }
+
+        .green h2 {
+            padding: 3px;
+            margin: 5px;
+            color: green;
+        }
+
+        .red p {
+            padding: 3px;
+            margin: 3px;
+
+        }
+
+        .green p {
+            padding: 3px;
+            margin: 3px;
+
+        }
+
+        footer {
+            background-color: rgb(187, 183, 247);
+            text-align: center;
+            padding: 23px;
+        }
+
+        .ak img {
+            height: 62px;
+            width: 72px;
+            /* background-color: orange; */
+            position: fixed;
+            bottom: 12px;
+            right: 1px;
+            border-radius: 23px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="conatiner">
+        <section class="red">
+            <img src="coding.jpg">
+            <h2>Coding</h2>
+            <p>It involves designing and implementing algorithms, step-by-step specifications of procedures, by writing
+                code in one or more programming languages.</p>
+        </section>
+        <section class="green">
+            <img src="coding.jpg">
+            <h2>Coding</h2>
+            <p>It involves designing and implementing algorithms, step-by-step specifications of procedures, by writing
+                code in one or more programming languages.</p>
+        </section>
+    </div>
+    <footer>
+        &copy;Akash Singh
+    </footer>
+    <div class="ak">
+        <img src="ak-removebg-preview.png" alt="">
+    </div>
+</body>
+
+</html>
